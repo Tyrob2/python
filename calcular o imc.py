@@ -48,7 +48,7 @@ def main():
 
     except ValueError:
         print('Por favor, insira valores numéricos válidos para peso e altura.')
-        main()
+        main() #Retorna para o inicio da função main
 
 # Executa o programa
 if __name__ == "__main__":
